@@ -14,13 +14,13 @@ export default function Home() {
             className='border-none focus-visible:ring-0 shadow-none'
             placeholder="Summarize the current presidential candidates' platforms"
           />
-          <Button className='p-2 size-6 bg-muted/80 hover:bg-muted rounded-full'>
+          <Button className='p-2 mr-3 size-6 bg-muted/80 hover:bg-muted rounded-full'>
             <ArrowRight className='text-primary' />
           </Button>
         </div>
-        <div className='flex justify-between px-1'>
-          <Button>Hello</Button>
-          <Button>Hello</Button>
+        <div className='flex justify-between px-2'>
+          <Button variant='ghost'>Hello</Button>
+          <Button variant='ghost'>Hello</Button>
         </div>
       </div>
     </div>
